@@ -172,7 +172,3 @@ Several extensions would meaningfully improve both the model and its operational
 - **Move toward causal inference.** The variable-importance plot identifies *associations*. Designing the next round of A/B tests around the top features — particularly `purchase_lead` and flight timing — is the natural next step before any pricing or messaging change is rolled out widely.
 
 ---
-
-**Creative link.** The shape of this problem rhymes with a classic finding from retail and SaaS funnels: *the strongest predictor of a converted purchase is rarely demographic — it's behavioural and temporal*. In airline data the "shopping lead time" plays the role that "session recency" plays in e-commerce or "trial day" plays in SaaS — a temporal coordinate that compresses a lot of latent intent. Worth asking whether British Airways' marketing CRM has an explicit `purchase_lead` segmentation in its journey design, the way Amazon has explicit recency cohorts.
-
-**AI reference.** This pipeline — class-imbalanced binary classification, tree ensemble, threshold-tuned operating point, feature-importance read-out — is the same template used in landmark uplift-modelling work such as Radcliffe & Surry's *Real-World Uplift Modelling* and the customer-retention work that came out of Pierre Gutierrez & Jean-Yves Gérardy's *Causal Inference and Uplift Modeling* (PMLR 2017). Both argue, as we did above, that propensity scores are inputs to an A/B test design — not a substitute for one.
